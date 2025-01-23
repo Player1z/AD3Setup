@@ -265,7 +265,7 @@ if [ -e "SetupAD3" ]; then
 fi
 
 # Baixa o script
-curl -sSL https://raw.githubusercontent.com/oriondesign2015/SetupOrion/main/SetupOrion -o SetupAD3
+curl -sSL https://raw.githubusercontent.com/Player1z/AD3Setup/main/SetupAD3 -o SetupAD3
 if [ $? -eq 0 ]; then
     echo "13/13 - [ OK ] - Baixando o script"
     # Executa o script baixado
